@@ -23,7 +23,8 @@
   "salt": "randomlygeneratedsalthere",
   "defaulttemplate": "blue_default",
   "rootkey": "../../neon/data/id_rsa",
-  "commandlog": "../../neon/data/log.txt"
+  "commandlog": "../../neon/data/log.txt",
+  "hostname": "hostnameforinstallhere"
   },
   "components": [
     "router",
