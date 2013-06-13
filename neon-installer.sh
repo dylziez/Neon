@@ -208,6 +208,7 @@ sed -i 's/databaseusernamehere/root/g' /var/neon/data/config.json
 sed -i 's/databasepasswordhere/'${mysqlpassword}'/g' /var/neon/data/config.json
 sed -i 's/databasenamehere/panel/g' /var/neon/data/config.json
 sed -i 's/randomlygeneratedsalthere/'${salt}'/g' /var/neon/data/config.json
+sed -i 's/hostnameforinstallhere/'${user_host}'/g' /var/neon/data/config.json
 
 ssh-keygen -t rsa -N "" -f ~/neon-install/id_rsa
 mkdir ~/.ssh/
