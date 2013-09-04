@@ -47,7 +47,7 @@ function slaughter_httpd {
 
 function check_installs {
 	if ! type -p $1 > /dev/null; then
-		status "Unfortunatly $1 failed to install. Neon install aborting."
+		status "Unfortunately $1 failed to install. Neon install aborting."
 		exit 1
 	fi
 }
@@ -84,7 +84,7 @@ status "     Welcome to Neon Installation"
 status "====================================="
 status "Neon will remove any existing apache,"
 status "nginx, mysql or php services you have"
-status "installed upon this server. It will"
+status "installed on this server. It will"
 status "also delete all custom config files"
 status "that you may have."
 status " "
